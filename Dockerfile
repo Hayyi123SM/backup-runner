@@ -1,4 +1,4 @@
-FROM Alpine:3.19
+FROM alpine:3.19
 
 RUN apk add --no-cache \
     myql-client \
