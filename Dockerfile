@@ -3,7 +3,7 @@ FROM alpine:3.19
 RUN apk add --no-cache \
     mysql-client \
     zip \
-    curl \
+    rclone \
     bash \
     ca-certificates \
     tzdata
