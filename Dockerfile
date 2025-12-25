@@ -1,7 +1,7 @@
 FROM alpine:3.19
 
 RUN apk add --no-cache \
-    myql-client \
+    mysql-client \
     zip \
     curl \
     bash \
